@@ -25,7 +25,7 @@ for(const file of commandFiles) {
 client.on('ready', () => {
     console.log('Chila je online!');
     memberCounter(client);
-    client.user.setActivity("Veselé Vánoce :heart:", { type: "LISTENING"})
+    client.user.setActivity("Veselé Vánoce", { type: "LISTENING"})
 });
 
 client.on('guildMemberAdd', guildMember =>{
